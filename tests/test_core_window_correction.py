@@ -11,7 +11,7 @@ sys.path.insert(0, parentdir)
 # MODULES
 from list_compare import list_compare
 from tools.data_pars import DataPars
-from core_window_correction import CoreWindowCorrection
+from core import CoreWindowCorrection
 from presets.transmission_sapphire_window import SAPPHIRE_WINDOW_WAVELENGTHS, SAPPHIRE_WINDOW_TRANSMISSION
 
 

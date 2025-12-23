@@ -4,8 +4,8 @@
 import numpy as np
 
 # MODULES
-from tools.data_pars import DataPars
-from presets.transmission_sapphire_window import SAPPHIRE_WINDOW_WAVELENGTHS, SAPPHIRE_WINDOW_TRANSMISSION # preset for demo
+from tools.data_pars import DataPars # for demo_f only
+from presets.transmission_sapphire_window import SAPPHIRE_WINDOW_WAVELENGTHS, SAPPHIRE_WINDOW_TRANSMISSION # preset for demo_f only
 
 
 class CoreWindowCorrection:

@@ -16,7 +16,7 @@ import pyqtgraph as pg
 from tools.data_pars import DataPars as DataPars
 from tools.array_tools import is_array_empty
 from presets.transmission_sapphire_window import SAPPHIRE_WINDOW_WAVELENGTHS, SAPPHIRE_WINDOW_TRANSMISSION
-from core_window_correction import CoreWindowCorrection
+from core import CoreWindowCorrection
 
 # TEMPLATES
 from templates.mw import Ui_MainWindow as Ui_MainWindow
