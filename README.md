@@ -79,8 +79,8 @@ A more detailed usage example is provided in the `demo_f` function at the end of
 
 The scientific core was validated by comparing its output with reference files in which the correction had been performed manually.
 
-These reference files are located in `resources/files_to_apply_and_to_compare`.
-Automated tests covering different configurations (number of windows and correction type) are located in `tests/test_core_window_correction.py`.
+These reference files are located in `resources/files_to_apply_and_to_compare`. 
+Automated tests covering different configurations (number of windows and correction type) are located in `tests/test_core_window_correction.py`. They are powered by the PyTest package, which must be installed in order to run the tests.
 
 # Repository structure
 
